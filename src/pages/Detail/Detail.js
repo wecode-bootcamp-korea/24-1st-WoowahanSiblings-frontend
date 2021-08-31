@@ -1,7 +1,17 @@
 import React, { Component } from "react";
+import Related from "./Components/Related";
+import CartPut from "./Components/CartPut";
+import "./Detail.scss";
 
-export default class Detail extends Component {
+class Detail extends Component {
   render() {
-    return <div></div>;
+    return (
+      <div className="Detail">
+        <CartPut />
+        <Related />
+      </div>
+    );
   }
 }
+
+export default Detail;
