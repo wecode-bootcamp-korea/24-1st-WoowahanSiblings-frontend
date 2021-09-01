@@ -4,6 +4,7 @@ import Login from "./pages/Login/Login";
 import SignUp from "./pages/SignUp/SignUp";
 import Main from "./pages/Main/Main";
 import Detail from "./pages/Detail/Detail";
+import Cart from "./pages/Cart/Cart";
 import Footer from "./components/Footer/Footer";
 
 class Routes extends React.Component {
@@ -15,6 +16,7 @@ class Routes extends React.Component {
           <Route exact path="/signup" component={SignUp} />
           <Route exact path="/" component={Main} />
           <Route exact path="/detail" component={Detail} />
+          <Route exact path="/cart" component={Cart} />
         </Switch>
         <Footer />
       </Router>
